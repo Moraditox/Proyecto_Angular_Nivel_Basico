@@ -1,8 +1,9 @@
 import { Component } from '@angular/core';
+import { FormsModule } from '@angular/forms';
 
 @Component({
   selector: 'app-event-binding',
-  imports: [],
+  imports: [FormsModule],
   templateUrl: './event-binding.html',
   styleUrl: './event-binding.css',
 })

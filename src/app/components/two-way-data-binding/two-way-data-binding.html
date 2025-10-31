@@ -1,0 +1,13 @@
+<div class="container">
+    <form (submit)="onSubmit()">
+        <div class="mb-3">
+            <label for="usuario">USUARIO*</label>
+            <input type="text" name="usuario" id="usuario" placeholder="Usuario" class="form-control" [(ngModel)]="credenciales.usuario">
+        </div>
+        <div class="mb-3">
+            <label for="password">PASSWORD*</label>
+            <input type="password" name="password" id="password" placeholder="Password" class="form-control" [(ngModel)]="credenciales.password">
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+</div>

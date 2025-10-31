@@ -1,0 +1,19 @@
+.fondo-azul {
+    background-color: blue;
+}
+
+.fondo-verde {
+    background-color: green;
+}
+
+.fondo-rojo {
+    background-color: red;
+}
+
+.letra-blanca {
+    color: white;
+}
+
+.padding-grande {
+    padding: 20px;
+}

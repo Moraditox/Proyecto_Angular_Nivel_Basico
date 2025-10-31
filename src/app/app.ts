@@ -1,10 +1,10 @@
 import { Component } from '@angular/core';
+import { NgClassComponent } from './components/ng-class-component/ng-class-component';
 
-import { EventBinding } from './components/event-binding/event-binding';
 
 @Component({
   selector: 'app-root',
-  imports: [EventBinding],         /*Declarar todos los componentes que utilicemos*/
+  imports: [NgClassComponent],         /*Declarar todos los componentes que utilicemos*/
   templateUrl: './app.html',   
   styleUrl: './app.css'
 })

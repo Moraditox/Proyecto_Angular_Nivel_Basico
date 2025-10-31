@@ -2,6 +2,8 @@
 <button type="button" class="btn btn-warning" (click)="ponerColor('2')">AMARILLO</button>
 <button type="button" class="btn btn-success" (click)="ponerColor('3')">VERDE</button>
 
-
+<input type="text" [(ngModel)]="color" name="" id="">
 
 <div class="cuadrado {{color}}"></div>
+
+<p>{{color}}</p>
