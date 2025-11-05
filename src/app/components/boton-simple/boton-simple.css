@@ -1,0 +1,32 @@
+.boton-nuestras-categorias {
+    display: flex;
+    text-decoration: none;
+    border-bottom: #dddddd solid 1px;
+    padding: 18px;
+    cursor: pointer;
+}
+
+.boton-nuestras-categorias article {
+    display: flex;
+    gap: 20px;
+}
+
+.boton-nuestras-categorias:hover p {
+    color: rgb(128, 39, 230);
+}
+
+img {
+    height: 84px;
+    width: 84px;
+}
+
+p {
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    color: #1f1f1f;
+}

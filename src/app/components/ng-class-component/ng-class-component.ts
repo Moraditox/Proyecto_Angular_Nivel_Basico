@@ -1,8 +1,9 @@
+import { NgClass } from '@angular/common';
 import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-ng-class-component',
-  imports: [],
+  imports: [NgClass],
   templateUrl: './ng-class-component.html',
   styleUrl: './ng-class-component.css',
 })
@@ -13,7 +14,7 @@ export class NgClassComponent {
   clase4: string = 'letra-blanca';
   clase5: string = 'padding-grande';
 
-  aClases:Array<string> = [this.clase1, this.clase4, this.clase5];
+  aClases: Array<string> = [this.clase1, this.clase4, this.clase5];
 
-  stock:Number = 0;
+  stock: number = 10;
 }

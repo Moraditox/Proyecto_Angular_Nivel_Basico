@@ -8,3 +8,11 @@
 <!-- DEPENDIENDO DE UNA CONDICION (TRUE O FALSE)
 QUEREMOS APLICAR UNA U OTRA CLASE... 
 PARA ELLO VAMOS A UTILIZAR LA DIRECTIVA ngClass-->
+
+<p [ngClass]="stock > 0 ? 'fondo-verde' : 'fondo-rojo'">stock: {{stock}}</p>
+<p [ngClass]="{
+    'letra-blanca': stock > 0,
+    'letra-amarilla': stock <= 0,
+    'fondo-verde': stock > 0,
+    'fondo-rojo': stock <= 0
+}">stock: {{stock}}</p>

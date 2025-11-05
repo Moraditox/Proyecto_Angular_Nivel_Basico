@@ -1,0 +1,9 @@
+@if (esVisible) {
+   <img src="img/manzana.jpg" alt="Imagen de Manzana"> 
+}@else {
+    <p>Dale al boton para que me vea</p>
+}
+
+<br/>
+
+<button (click)="toggle()">{{mostrarImagen}}</button>

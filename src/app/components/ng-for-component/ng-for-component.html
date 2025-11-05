@@ -1,0 +1,5 @@
+<section class="nuestras-categorias">
+    @for (boton of botones; track boton.id) {
+        <app-boton-simple class="boton" [datos]="boton"></app-boton-simple>
+    }
+</section>

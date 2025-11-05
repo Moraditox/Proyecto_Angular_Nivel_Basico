@@ -1,10 +1,10 @@
 import { Component } from '@angular/core';
-import { NgClassComponent } from './components/ng-class-component/ng-class-component';
+import { NgForComponent } from './components/ng-for-component/ng-for-component';
 
 
 @Component({
   selector: 'app-root',
-  imports: [NgClassComponent],         /*Declarar todos los componentes que utilicemos*/
+  imports: [NgForComponent],         /*Declarar todos los componentes que utilicemos*/
   templateUrl: './app.html',   
   styleUrl: './app.css'
 })

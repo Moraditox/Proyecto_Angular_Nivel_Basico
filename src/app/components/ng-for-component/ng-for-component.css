@@ -1,0 +1,11 @@
+.nuestras-categorias {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 50px;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.boton {
+    width: 30%;
+}

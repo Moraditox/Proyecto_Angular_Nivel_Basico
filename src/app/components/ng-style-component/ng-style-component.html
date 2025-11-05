@@ -1,0 +1,19 @@
+<p [ngStyle]="{
+    'background-color': colorFondo,
+    'color': colorTexto,
+    'padding': miPadding ? '20px' : '0px',
+    'font-size.px': tamanioTexto,
+
+}">Genesis es magnífico</p>
+
+<button class="btn btn-primary" (click)="metodoSumarTexto()"> + </button>
+<button class="btn btn-danger" (click)="metodoRestarTexto()"> - </button>
+
+<br/>
+
+<input type="text" placeholder="Ingrese un color de fondo" [(ngModel)]="bgColor" />
+<div [ngStyle]="{ 
+    'background-color': bgColor,
+    'width.px': anchoCaja,
+    'height.px': alturaCaja
+}"></div>
